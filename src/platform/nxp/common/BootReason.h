@@ -24,6 +24,7 @@
  *
  *          Each supported NXP platform must provide a
  *          translation unit that implements ReadAndDetermineBootReason().
+ *          The implementation is selected at build time per platform.
  *
  *          Typical usage inside ConfigurationManagerImpl::Init():
  *
